@@ -1,0 +1,36 @@
+{
+  "name": "news-daily",
+  "version": "0.1.0",
+  "description": "stub",
+  "main": "index.js",
+  "scripts": {
+    "babel": "babel-node index.js",
+    "start": "nodemon --exec babel-node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lastandards/news-daily.git"
+  },
+  "keywords": [
+    "news-daily"
+  ],
+  "author": "eu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lastandards/news-daily/issues"
+  },
+  "homepage": "https://github.com/lastandards/news-daily#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "consign": "^0.1.6",
+    "express": "^4.16.2",
+    "pg": "^6.4.2",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.28.6"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  }
+}

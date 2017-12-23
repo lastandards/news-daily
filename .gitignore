@@ -1,0 +1,5 @@
+# Diretórios ignorados
+
+node_modules
+npm-debug.log*
+.tmp
